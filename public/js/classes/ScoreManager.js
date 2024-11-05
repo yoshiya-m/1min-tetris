@@ -15,6 +15,7 @@ export class ScoreManager {
 
     initialize() {
         this.currentLevelEle.innerHTML = this.level;
+        this.currentScoreEle.innerHTML = this.score;
         this.scoreRateEle.innerHTML = this.scoreRate;
     }
 
@@ -31,7 +32,7 @@ export class ScoreManager {
 
     updateScoreRate(scoreRate) {
         this.scoreRate *= scoreRate;
-        this.scoreRateEle.innerHTML = this.scoreRate.toFixed(8);
+        this.scoreRateEle.innerHTML = this.scoreRate.toFixed(4);
         const sounds = {
             50: this.game.sound.levelUp.bind(this.game.sound),
             100: this.game.sound.levelUp.bind(this.game.sound),

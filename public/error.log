@@ -10831,3 +10831,42 @@ Referer: http://localhost:8000/
 Accept-Encoding: gzip, deflate, br, zstd
 Accept-Language: ja,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
 Cookie: theme=default; PHPSESSID=mackvggv4rj52gk8h39l76gemf
+URI: /
+REQUEST METHOD: GET
+TIMESTAMP: 2024-11-05 23:44:02
+QUERY PARAMETERS: 
+Host: 127.0.0.1:8000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="130", "Microsoft Edge";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ja,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cookie: PHPSESSID=1dht6ed2tt9bir2eoeb8gs7vmj
+URI: /
+REQUEST METHOD: GET
+TIMESTAMP: 2024-11-05 23:44:36
+QUERY PARAMETERS: 
+Host: 127.0.0.1:8000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Microsoft Edge";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ja,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cookie: PHPSESSID=1dht6ed2tt9bir2eoeb8gs7vmj
