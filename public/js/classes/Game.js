@@ -218,7 +218,7 @@ export class Game {
         const score = this.scoreManager.getScore();
         // ランキングに参加にチェックない場合と名前が空白の場合はランキング順位取得だけする
         if (!document.getElementById('ranking-checkbox').checked || username === "") {
-            fetch('http://localhost:8000/get-ranking-by-score?score=' + score.toString())
+            fetch('https://1min-tetris.yoshm.com/get-ranking-by-score?score=' + score.toString())
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
@@ -236,7 +236,7 @@ export class Game {
 
 
 
-        fetch('http://localhost:8000/save-result', {
+        fetch('https://1min-tetris.yoshm.com/save-result', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

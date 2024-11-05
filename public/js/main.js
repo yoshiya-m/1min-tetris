@@ -172,7 +172,7 @@ function initializeRankingBtn() {
     // btnが押されたときに、ランキング情報を取得して、要素に格納する
     document.getElementById("pop-up3").addEventListener('change', function () {
 
-        fetch('http://localhost:8000/get-ranking')
+        fetch('https://1min-tetris.yoshm.com/get-ranking')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
