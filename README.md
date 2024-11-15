@@ -1,7 +1,7 @@
 # 1min-tetris
 
 # tetris
-recursionのチーム開発で、三名で作成したテトリスです。
+チーム開発で三名で作成したテトリスを、追加で機能開発した作品です。
 
 ## 目次
 - [作成期間](#作成期間)
@@ -12,7 +12,7 @@ recursionのチーム開発で、三名で作成したテトリスです。
 - [使用技術](#使用技術)
 
 ## 作成期間
- 2週間 (2024/4/7 ～ 2024/4/21)
+ 2週間 (2024/4/7 ～ 2024/4/21) + 個人追加開発 1週間
 
 ## demo
 <img width="400" alt="スクリーンショット_20230130_131653" src="https://github.com/teamdev-Cteam/tetris/assets/166124956/31ef78a5-1ffd-48f6-90aa-eb03db2edc85">
@@ -33,6 +33,16 @@ recursionのチーム開発で、三名で作成したテトリスです。
 https://teamdev-cteam.github.io/tetris/
 
 ## 使用技術
+### フロント
 ・HTML  
 ・CSS  
-・javascript  
+・JavaScript  
+
+### バックエンド
+・PHP
+
+### データベース
+・MySQL
+
+### インフラ
+・AWS EC2
