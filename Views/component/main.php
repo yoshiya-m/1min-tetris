@@ -56,7 +56,7 @@
         </div>
         <div class="d-flex justify-content-center">
             <!-- holdTetro -->
-            <div class="col-2">
+            <div class="hold-container">
                 <div class="bg-dark text-white text-center mb-0">
                     <p>HOLD</p>
                 </div>
@@ -67,7 +67,7 @@
                 <canvas id="canvas"></canvas>
             </div>
             <!-- nextTetro -->
-            <div class="col-3">
+            <div id="next-container">
                 <div class="bg-dark text-white text-center mb-0">
                     <p>NEXT</p>
                 </div>

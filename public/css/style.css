@@ -170,3 +170,10 @@ canvas {
     color: yellow;
     transform: scale(1.2);
 }
+
+#next-container {
+    width: 145px;
+}
+#hold-container {
+    width: 145px; 
+}
