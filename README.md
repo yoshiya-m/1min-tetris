@@ -30,7 +30,7 @@
 ゲームオーバーになるとポップアップが表示され、もう1度プレイすることができます。
 
 ## URL
-https://teamdev-cteam.github.io/tetris/
+https://github.com/yoshiya-m/1min-tetris.git
 
 ## 使用技術
 ### フロント
