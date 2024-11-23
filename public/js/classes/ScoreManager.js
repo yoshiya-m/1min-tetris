@@ -69,7 +69,7 @@ export class ScoreManager {
     // スコアの計算処理
     updateScore(score) {
         this.score += Math.floor(score * this.scoreRate);
-        this.currentScoreEle.innerHTML = this.score;
+        this.currentScoreEle.innerHTML = Math.floor(this.score).toLocaleString('ja-JP');
         this.highlightScore();
     }
 

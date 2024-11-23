@@ -273,7 +273,7 @@ export class Game {
 
     setScore() {
         const scoreEle = document.getElementById("score-result");
-        scoreEle.innerHTML = this.scoreManager.getScore();
+        scoreEle.innerHTML = this.scoreManager.getScore().toLocaleString('ja-JP');
     }
     setRankingData(ranking, competitorCount) {
         const rankingEle = document.getElementById("ranking");
