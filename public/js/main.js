@@ -189,7 +189,7 @@ function initializeRankingBtn() {
                         <tr>
                             <th scope="row">${i + 1}</th>
                             <td>${rankings[i].username}</td>
-                            <td>${rankings[i].score}</td>
+                            <td>${rankings[i].score.toLocaleString('ja-JP')}</td>
                         </tr>
                     `;
                 }
